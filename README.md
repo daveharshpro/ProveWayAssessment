@@ -3,7 +3,10 @@
 ## Overview
 
 **Disclaimer:** Due to time constraints and based on the requirements mentioned in the document, I have written scripts for two functional events. Additional validation tests and other functionalities could have been implemented with more time.
+
 This project contains Playwright automation scripts to automate the **Quantity Breaks** functionality in the **Pumper** app for a Shopify store.
+
+I have also recorded the entire assessment process, from creating the Shopify store to writing automation scripts. You can view the recording [here](https://drive.google.com/file/d/1avvT6opXmEAv8oBFiQsKBLhnFZOMoij2/view?usp=sharing).
 
 The scripts cover:
 - Logging into Shopify Admin.
@@ -74,7 +77,7 @@ The automation suite includes the following test scenarios:
 - Navigates to the storefront.
 - Unlocks the store using the password.
 - Selects a product and adds it to the cart.
-- Check if the discount is correctly applied (10% off the original price).
+- Checks if the discount is correctly applied (10% off the original price).
 
 ### 4. Shopify Admin Logout
 - Navigates to the admin dashboard.
@@ -94,4 +97,5 @@ Modify `playwright.config.js` if needed to customize test settings such as timeo
   - The Shopify store and Pumper app are correctly set up.
   - The product selection and pricing logic are correct.
   - Playwright is installed and up to date (`npx playwright install`).
+
 
